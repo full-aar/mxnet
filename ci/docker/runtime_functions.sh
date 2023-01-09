@@ -154,7 +154,7 @@ build_jetson() {
     cmake \
         -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TOOLCHAIN_FILE} \
         -DUSE_CUDA=ON \
-        -DMXNET_CUDA_ARCH="5.2" \
+        -DMXNET_CUDA_ARCH="5.3 6.2 7.2" \
         -DUSE_OPENCV=OFF \
         -DUSE_OPENMP=ON \
         -DUSE_LAPACK=OFF \
